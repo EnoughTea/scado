@@ -1,9 +1,9 @@
-##Scado
+## Scado
 
 This is a console tool which downloads a batch of URLs into local files with multithreading and download rate limit.
 Done as a Scala learning task :)
 
-###How to use
+### How to use
 Prepare a plain text file with URLs and local filenames, let's call it `links.txt`. 
 Every (URL, file name) pair starts on a new line,
 and first space separates URL from a file name:
@@ -25,6 +25,6 @@ Then pass this file as an argument like this:
 
 Output folder path can be relative, current working directory will be used as a path root.
 
-###How to build
+### How to build
 Fat jar can be built with `sbt assembly` task: launch `sbt` inside project root and type `assembly`.
 Assembled jar will be put into a `build` folder inside the project root.
